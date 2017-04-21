@@ -8,7 +8,10 @@ We're using [Project Euler Question 3](https://projecteuler.net/problem=3) to il
 ## Useful links
 
 [Project Euler](https://projecteuler.net/)
+
 [Hadley's R Packages eBook](http://r-pkgs.had.co.nz/)
+
 [Wikipedia - Determining Primality](https://en.wikipedia.org/wiki/Primality_test)
-[Wikipedia - FactoriZation](https://en.wikipedia.org/wiki/Integer_factorization)
+
+[Wikipedia - Factorization](https://en.wikipedia.org/wiki/Integer_factorization)
 
