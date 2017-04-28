@@ -14,6 +14,11 @@
 #' isPrime(7)
 isPrime <- function(x) {
   
+  # Good practise to check input validity - aim for the package to fail gracefully!
+  if(!is.numeric(x) || x%%1!=0) {
+    stop("isPrime can only be called with an integer")
+  }
+  
   # First, take some shortcuts
   # If our number is <=1 it is not prime
   if (x <= 1) {
