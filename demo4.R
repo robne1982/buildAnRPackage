@@ -38,3 +38,5 @@ devtools::document()
 devtools::build()
 
 ?getFactors
+
+# Open the .Rd file...
