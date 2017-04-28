@@ -7,8 +7,10 @@ library(devtools)
 setwd("./primeFactors/")
 
 devtools::load_all()
-
+devtools::test()
+devtools::document()
 devtools::build()
+
 
 getFactors(64)
 getFactors(21)
