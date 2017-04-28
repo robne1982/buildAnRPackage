@@ -1,0 +1,4 @@
+Name: primeFactors
+Description: Example Package with a R Studio Add-in
+Binding: primeFactorAddIn
+Interactive: true
