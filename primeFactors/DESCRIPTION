@@ -1,10 +1,23 @@
 Package: primeFactors
-Title: What the Package Does (one line, title case)
-Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-Depends: R (>= 3.3.3)
-License: What license is it under?
+Title: Calculates prime factors
+Version: 0.0.0.0001
+Authors@R: c(person("Rob", "Noble-Eddy", email = "spmename@example.com", role = c("aut", "cre")), 
+             person("Sarah", "Pollicott", email = "spmename@example.com", role = c("aut", "cre")),
+             person("Sarah", "Johnston", email = "spmename@example.com", role = c("aut", "cre"))
+             )
+Description: Calculates factors, prime factors and the largest prime factor of any given positive integer
+Depends:
+    R (>= 3.2.3),
+    shiny (>= 0.13),
+    miniUI (>= 0.1.1),
+    rstudioapi (>= 0.5)
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.0.1
+RoxygenNote: 5.0.1
+Imports:
+    shiny (>= 0.13),
+    miniUI (>= 0.1.1),
+    rstudioapi (>= 0.5)
+Suggests:
+    testthat
