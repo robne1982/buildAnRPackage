@@ -15,6 +15,8 @@
 #' Note that this is not the most efficient approach to finding prime factors - for example, see
 #' \url{http://stackoverflow.com/questions/6800193/what-is-the-most-efficient-way-of-finding-all-the-factors-of-a-number-in-python}
 #'  
+#' @export
+#'  
 #' @param x An integer to generate the factors for
 #'  
 #' @examples
@@ -31,6 +33,13 @@ getFactors <- function(x) {
   # 2 * 6
   # 3 * 4
   
+  # Good practise to check input validity - aim for the package to fail gracefully!
+  # We want to check for an integer - is.integer does not work!
+  if(!is.numeric(x) || x%%1!=0 || x < 1) {
+    stop("getFactors can only be called with a positive integer")
+  }
+  
+  
   # We only need to search as far as floor(sqrt(n)) + 1 to get one half of all factor pairs
   searchSpace <- 2:floor(sqrt(x))
   searchFactors <- (x %% searchSpace) == 0
@@ -39,8 +48,8 @@ getFactors <- function(x) {
   # We can then recover the other half of the factor pairs by dividing x by them
   upperFactors <- x / searchSpace[searchFactors]
   
-  # We can then add them all together
-  allFactors <- c(1, x, lowerFactors, upperFactors)
+  # We can then add them all together - but only return unique factors
+  allFactors <- unique(c(1, x, lowerFactors, upperFactors))
   
   return(allFactors)
   
