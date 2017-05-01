@@ -8,11 +8,21 @@ for(i in 2:floor(77/2)) {
   if (77 %% i == 0) print(paste0('77 divides by ', i))
 }
 
+
+
+
+
+
 # We might rewrite it be more generic to work with any number...
 num <- 88
 for(i in 2:floor(num/2)) {
   if (num %% i == 0) print(paste0(num, ' divides by ', i))
 }
+
+
+
+
+
 
 
 # But for the ultimate reusability, write a function
@@ -26,3 +36,8 @@ amIPrime <- function(x) {
 amIPrime(77)
 amIPrime(88)
 amIPrime(101)
+
+
+
+
+## Questions?

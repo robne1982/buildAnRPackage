@@ -3,9 +3,9 @@ devtools::load_all()
 
 # Example of exported functions - two colons
 library(dplyr)
-dplyr::select()
+dplyr::
 # internal functions via three colons
-dplyr:::select_.data.frame()
+dplyr:::
 
 
 # Lets run through the functions we we wrote for the package
