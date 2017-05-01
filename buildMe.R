@@ -1,6 +1,6 @@
 library(roxygen2)
 library(devtools)
-
+library(shiny)
 # run once
 #getwd()
 #devtools::create("./primeFactors")
@@ -23,3 +23,4 @@ getLargestPrimeFactor(21)
 
 # And to solve Euler Q3
 getLargestPrimeFactor(600851475143)
+
