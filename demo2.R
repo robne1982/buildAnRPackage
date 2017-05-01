@@ -1,5 +1,8 @@
 # When writing a function, its a good idea to validate the input is meaningful
 
+amIPrime("apple")
+
+
 isPrime <- function(x) {
   
   # Good practise to check input validity - aim for the package to fail gracefully!
@@ -34,3 +37,8 @@ isPrime <- function(x) {
   }
   
 }
+
+isPrime('apple')
+isPrime(77)
+isPrime(88)
+isPrime(101)

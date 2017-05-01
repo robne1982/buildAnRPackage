@@ -1,9 +1,9 @@
 Package: primeFactors
 Title: Calculates prime factors
 Version: 0.0.0.0001
-Authors@R: c(person("Rob", "Noble-Eddy", email = "spmename@example.com", role = c("aut", "cre")), 
-             person("Sarah", "Pollicott", email = "spmename@example.com", role = c("aut", "cre")),
-             person("Sarah", "Johnston", email = "spmename@example.com", role = c("aut", "cre"))
+Authors@R: c(person("Rob", "Noble-Eddy", email = "somename@example.com", role = c("aut", "cre")), 
+             person("Sarah", "Pollicott", email = "somename@example.com", role = c("aut")),
+             person("Sarah", "Johnston", email = "somename@example.com", role = c("aut"))
              )
 Description: Calculates factors, prime factors and the largest prime factor of any given positive integer
 Depends:
@@ -14,7 +14,7 @@ Depends:
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1
 Imports:
     shiny (>= 0.13),
     miniUI (>= 0.1.1),

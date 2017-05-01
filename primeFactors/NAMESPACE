@@ -3,4 +3,3 @@
 export(getFactors)
 export(getLargestPrimeFactor)
 export(getPrimeFactors)
-
