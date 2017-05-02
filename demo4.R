@@ -1,3 +1,10 @@
+#  ---- DEMO 4  ----
+# Writing function documentation with Roxygen2
+
+# We put the following header at the top of our function - the #' denotes these are Roxygen comments
+# ---------------------------------------------------------------------------------
+
+
 #' Returns a list of the factors of a number
 #'
 #' \code{getFactors} returns a vector containing all factors of \code{x}
@@ -23,6 +30,11 @@
 #' getFactors(10)
 #' getFactors(64)
 
+# ---------------------------------------------------------------------------------
+
+# See getFactors.R 
+
+# Use devtools to build our documentation
 
 library(roxygen2)
 library(devtools)
@@ -35,8 +47,8 @@ setwd("./primeFactors/")
 devtools::load_all()
 devtools::test()
 devtools::document()
-devtools::build()
 
+# View the help
 ?getFactors
 
 # Open the .Rd file...
