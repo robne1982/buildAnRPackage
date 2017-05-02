@@ -1,7 +1,10 @@
-# When writing a function, its a good idea to validate the input is meaningful
+# ------ DEMO 2 ------
+# Writing a reusable function
 
+# When writing a function, its a good idea to validate the input is meaningful
 amIPrime("apple")
 
+# The isPrime function checks that we're passing an integer before determining if that number is a prime
 
 isPrime <- function(x) {
   
