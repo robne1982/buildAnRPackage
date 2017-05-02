@@ -1,3 +1,7 @@
+# ------ DEMO 1 ------
+# Writing code as functions
+
+
 # If we're just writing a script to perform some analysis, it's not that important
 # to write reusable code
 
@@ -32,6 +36,7 @@ amIPrime <- function(x) {
   }
   return(TRUE)
 }
+
 
 amIPrime(77)
 amIPrime(88)
