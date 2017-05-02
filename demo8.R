@@ -1,3 +1,7 @@
+# ---- DEMO 8 ----
+# Performance testing
+
+# ---- 8.1 Scaling with input size -----
 library(ggplot2)
 
 time <- numeric()
@@ -34,7 +38,7 @@ plt
 
 
 
-
+# ---- 8.2 Profiling with profvis -----
 
 library(profvis)
 profvis(getLargestPrimeFactor(600851475143000))
