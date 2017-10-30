@@ -1,5 +1,5 @@
 # buildAnRPackage
-Demo package for the Nottingham R meetup, April 2017
+Demo package for the Nottingham R meetup, April 2017. Checkout the meetup group [here](https://www.meetup.com/NottinghamR-Nottingham-R-Users-Group/).
 
 ## Notes
 
